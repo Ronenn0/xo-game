@@ -1,0 +1,97 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="texts_WhenHitAnUnPlayableSize">
+        <!--<span>The game is kind of unplayable at this size..</span>-->
+        <span></span>
+    </div>
+    <span id="tooltip">i</span>
+
+    <header>
+        <span id="playerOne">Player one: <span id="score_playerOne">0</span></span>
+        <span id="playerTwo">Player two: <span id="score_playerTwo">0</span></span>
+        <span id="spanHelper">turn</span>
+        <span id="turnSpan">Player one</span>
+        <span id="placeID"></span>
+    </header>
+    <!--<particles>
+        <div id="topBottom">
+            <div id="top"></div>
+            <div id="bottom"></div>
+        </div>
+        <div id="leftRight">
+            <div id="left"></div>
+            <div id="right"></div>
+        </div>
+    </particles>-->
+
+    <!--<nav>
+        <span>New size: </span>
+        <input type="text" id="newSizeInput" placeholder="X by X (3 - 10)">
+        <input type="submit" id="saveChanges" value="Save changes">
+    </nav>-->
+    <!--<menu>
+        <span id="menu_span">Menu</span>
+        <settings>
+            <span>Choose game's settings</span>
+            <div>
+                <span>Base length: </span>
+                <select>
+                    <option>3 x 3 (recommended)</option>
+                    <option>5 x 5</option>
+                    <option>Other (3 - 10)</option>
+                </select>
+            </div>
+            <div id="namesDiv">
+                <span>Players names:</span>
+                <input type="text"id="playerOneName" placeholder="Player one">
+                <input type="text"id="playerOneName" placeholder="Player two">
+            </div>
+        </settings>
+    </menu>-->
+    <main>
+    </main>
+    <div id="winningAndRestartingDiv">
+        <div id="informations">
+            <span>player one</span>
+            <span> ONE </span>
+            <span>has won! congratulations.</span>
+        </div>
+        <input type="button" id="continueButton" value="Continue" />
+        <input type="button" id="restartButton" value="Restart" />
+        <score>
+            <div id="scoreDiv">
+                <span id="playerOneSpan">Player one</span>
+                <span id="mainScore">0 - 0</span>
+                <span id="playerTwoSpan">Player two</span>
+            </div>
+        </score>
+    </div>
+    <mainSizeContainer>
+        <button id="size_showButton">></button>
+        <div id="newSizeDiv">
+            <span style="margin-bottom: 10px;">New size:</span>
+            <select id="size_Adjust">
+                <option>3 x 3 (recommended)</option>
+                <option>5 x 5</option>
+                <option>Other.. (between 3-10)</option>
+            </select>
+            <input type="text" id="otherSize" placeholder="Other size - between 3 and 10" />
+            <input type="submit" id="saveNewSize_button" value="Apply new size" />
+        </div>
+    </mainSizeContainer>
+    <div id="mouse_div"></div>
+    <mainOpacityAdjustmentContainer>
+        <div id="circle"></div>
+    </mainOpacityAdjustmentContainer>
+</body>
+<script src="javascript.js"></script>
+
+</html>
